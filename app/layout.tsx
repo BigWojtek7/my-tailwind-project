@@ -22,7 +22,9 @@ export default function RootLayout({
       <body
         className={`${roboto.className} flex h-full min-h-screen flex-col antialiased`}
       >
-        <Header />
+        <header>
+          <Header />
+        </header>
         <main className="h-full flex-1">{children}</main>
       </body>
     </html>
